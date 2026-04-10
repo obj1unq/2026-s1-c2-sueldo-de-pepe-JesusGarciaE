@@ -13,4 +13,7 @@ object sofia {
     method sueldoNeto() { 
 		return categoria.neto() * porcentualDelSueldo
         }
+    method categoria(_categoria) {
+         categoria = _categoria
+    }
 }
