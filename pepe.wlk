@@ -32,7 +32,7 @@ object pepe {
 		return categoria.neto() }
 
 	method sueldo() {
-		return self.sueldoNeto() + bonoPorcentaje.monto(self) + bonoNulo.monto(self) 
+		return self.sueldoNeto() + bonoPresentismo.monto(self) + bonoResultado.monto(self)
 			/* + el bono por presentismo */
 			/* + el bono por resultado */
 		

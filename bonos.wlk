@@ -51,6 +51,11 @@ object bonoPresentismoNormal {
 	}
  }
 
+object bonoDemagogico {
+	method monto(empleado) {
+		return  if (empleado.sueldoNeto() < 18000) {500} else {300}
+	}
+}
 /*
  * Bono nulo: sirve para resultados y para presentismo, cuando el importe es 0 
  * (o "nada")
